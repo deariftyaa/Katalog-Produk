@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="3"
+        android:textSize="14sp"
+        tools:text="G2G BLUEBERRY CERAMIDE MOISTURIZER" />
+
+    <TextView
+        android:id="@+id/textViewHarga"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="16dp"
+        android:gravity="end"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        tools:text="45000" />
+
+    <TextView
+        android:id="@+id/textViewKategori"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center"
+        android:paddingEnd="16dp"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:text="TextView"
+        tools:text="SKINCARE"/>
+</LinearLayout>
